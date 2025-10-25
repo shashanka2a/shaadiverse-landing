@@ -133,28 +133,37 @@ export function Hero() {
             className="bg-white text-[#D65F1A] hover:bg-white/95 shadow-xl hover:shadow-2xl transition-all duration-300 gap-2 min-h-[3.5rem] active:scale-[0.98] group"
             onMouseEnter={() => setHoveredButton('photographers')}
             onMouseLeave={() => setHoveredButton(null)}
+            asChild
           >
-            <Camera className="w-5 h-5 transition-transform duration-300 group-hover:scale-110" />
-            <span className="tracking-wide">Find Photographers</span>
+            <a href="http://snapevent.in/" target="_blank" rel="noopener noreferrer">
+              <Camera className="w-5 h-5 transition-transform duration-300 group-hover:scale-110" />
+              <span className="tracking-wide">Find Photographers</span>
+            </a>
           </Button>
           <Button 
             size="lg" 
             className="bg-white text-[#D65F1A] hover:bg-white/95 shadow-xl hover:shadow-2xl transition-all duration-300 gap-2 min-h-[3.5rem] active:scale-[0.98] group"
             onMouseEnter={() => setHoveredButton('gifts')}
             onMouseLeave={() => setHoveredButton(null)}
+            asChild
           >
-            <Gift className="w-5 h-5 transition-transform duration-300 group-hover:scale-110" />
-            <span className="tracking-wide">Shop Gifts</span>
+            <a href="https://gnapika.in/" target="_blank" rel="noopener noreferrer">
+              <Gift className="w-5 h-5 transition-transform duration-300 group-hover:scale-110" />
+              <span className="tracking-wide">Shop Gifts</span>
+            </a>
           </Button>
           <Button 
             size="lg" 
             className="bg-white text-[#D65F1A] hover:bg-white/95 shadow-xl hover:shadow-2xl transition-all duration-300 gap-2 min-h-[3.5rem] active:scale-[0.98] group"
             onMouseEnter={() => setHoveredButton('website')}
             onMouseLeave={() => setHoveredButton(null)}
+            asChild
           >
-            <Heart className="w-5 h-5 transition-transform duration-300 group-hover:scale-110" />
-            <span className="tracking-wide hidden sm:inline">Create Wedding Website</span>
-            <span className="tracking-wide sm:hidden">Create Website</span>
+            <a href="http://knotify.sh/" target="_blank" rel="noopener noreferrer">
+              <Heart className="w-5 h-5 transition-transform duration-300 group-hover:scale-110" />
+              <span className="tracking-wide hidden sm:inline">Create Wedding Website</span>
+              <span className="tracking-wide sm:hidden">Create Website</span>
+            </a>
           </Button>
         </motion.div>
       </div>

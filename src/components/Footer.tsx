@@ -16,14 +16,17 @@ export function Footer() {
   const sections = [
     {
       title: "📸 SnapEvent",
+      url: "http://snapevent.in/",
       links: ["Browse Photographers", "How It Works", "Pricing"]
     },
     {
       title: "🎁 Gnapika",
+      url: "https://gnapika.in/",
       links: ["Shop Gifts", "Custom Orders", "Bulk Discounts"]
     },
     {
       title: "💌 Knotify",
+      url: "http://knotify.sh/",
       links: ["Create Website", "Templates", "Features"]
     }
   ];
@@ -76,12 +79,23 @@ export function Footer() {
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 sm:gap-8 mb-8 sm:mb-10 text-center sm:text-left">
           {sections.map((section, index) => (
             <div key={index}>
-              <h4 className="text-white mb-3 sm:mb-4 tracking-wide">{section.title}</h4>
+              <h4 className="text-white mb-3 sm:mb-4 tracking-wide">
+                <a 
+                  href={section.url} 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="hover:text-white/80 transition-colors duration-200"
+                >
+                  {section.title}
+                </a>
+              </h4>
               <ul className="space-y-2 text-white/90">
                 {section.links.map((link, linkIndex) => (
                   <li key={linkIndex}>
                     <a 
-                      href="#" 
+                      href={section.url} 
+                      target="_blank" 
+                      rel="noopener noreferrer"
                       className="hover:text-white transition-colors duration-200 inline-block hover:translate-x-1 transition-transform text-[0.9375rem] sm:text-[1rem]"
                     >
                       {link}

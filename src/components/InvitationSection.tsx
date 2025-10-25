@@ -4,7 +4,7 @@ import { motion, useReducedMotion } from "motion/react";
 import { useInView } from "motion/react";
 import { useRef, useState } from "react";
 import { ImageWithFallback } from "./figma/ImageWithFallback";
-import { CheckCircle2, ArrowRight, Sparkles } from "lucide-react";
+import { CheckCircle2, ArrowRight } from "lucide-react";
 import { Button } from "./ui/button";
 
 export function InvitationSection() {
@@ -59,17 +59,6 @@ export function InvitationSection() {
                   height={400}
                   sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                 />
-                {/* Enhanced Overlay with Interactive Elements */}
-                <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent flex items-end justify-center pb-6 sm:pb-8">
-                  <motion.button
-                    className="bg-white/95 backdrop-blur-sm px-6 sm:px-8 py-2.5 sm:py-3 rounded-full text-gray-900 shadow-lg hover:shadow-xl transition-all duration-300 flex items-center gap-2 min-h-[3rem] active:scale-[0.98]"
-                    whileHover={{ scale: 1.05 }}
-                    whileTap={{ scale: 0.98 }}
-                  >
-                    <Sparkles className="w-4 h-4 text-pink-600" />
-                    <span className="tracking-wide">View Live Preview</span>
-                  </motion.button>
-                </div>
               </div>
             </div>
           </motion.div>
