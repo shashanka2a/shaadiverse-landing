@@ -52,7 +52,7 @@ export function InvitationSection() {
             <div className="rounded-xl sm:rounded-2xl overflow-hidden shadow-[0_8px_30px_rgba(0,0,0,0.12)] border-2 sm:border-4 border-[#E8C77D]/30 hover:border-[#E8C77D]/50 transition-all duration-500">
               <div className="relative overflow-hidden">
                 <ImageWithFallback
-                  src="https://images.unsplash.com/photo-1758810741366-aff0d0e37e7f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxlbGVnYW50JTIwY2FyZCUyMGRlc2lnbiUyMGdvbGR8ZW58MXx8fHwxNzYxMzkyNzE3fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+                  src="/invitation.png"
                   alt="Elegant wedding invitation design with gold accents"
                   className="w-full h-[240px] sm:h-[320px] md:h-[400px] object-cover transition-transform duration-700 group-hover:scale-105"
                   width={1080}

@@ -76,7 +76,7 @@ export function PhotographerSection() {
             <div className="rounded-xl sm:rounded-2xl overflow-hidden shadow-[0_8px_30px_rgba(0,0,0,0.12)] hover:shadow-[0_12px_40px_rgba(0,0,0,0.18)] transition-all duration-500 group">
               <div className="relative overflow-hidden">
                 <ImageWithFallback
-                  src="https://images.unsplash.com/photo-1727430334033-d2ffe559bdce?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxJbmRpYW4lMjBicmlkZSUyMGdyb29tJTIwcGhvdG9ncmFwaHl8ZW58MXx8fHwxNzYxMzkyNzE2fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+                  src="/photographer.png"
                   alt="Indian bride and groom wedding photography"
                   className="w-full h-[280px] sm:h-[400px] md:h-[500px] object-cover transition-transform duration-700 group-hover:scale-105"
                   width={1080}
