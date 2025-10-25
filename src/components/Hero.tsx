@@ -111,9 +111,9 @@ export function Hero() {
         </motion.h1>
         
         <motion.p
-          className="text-white/95 mb-8 sm:mb-12 max-w-2xl mx-auto px-4 text-[1rem] sm:text-[1.125rem] leading-relaxed"
+          className="text-white mb-8 sm:mb-12 max-w-3xl mx-auto px-4 text-[1.125rem] sm:text-[1.25rem] leading-relaxed font-medium"
           style={{ 
-            textShadow: '0 2px 10px rgba(0,0,0,0.8), 0 1px 6px rgba(0,0,0,0.6)'
+            textShadow: '0 1px 3px rgba(0,0,0,0.3)'
           }}
           initial={{ opacity: 0, y: shouldReduceMotion ? 0 : 30 }}
           animate={{ opacity: 1, y: 0 }}
