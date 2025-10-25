@@ -111,12 +111,15 @@ export function Hero() {
         </motion.h1>
         
         <motion.p
-          className="text-white/95 mb-8 sm:mb-12 max-w-2xl mx-auto px-4 text-[1rem] sm:text-[1.125rem] leading-relaxed drop-shadow-md"
+          className="text-white/95 mb-8 sm:mb-12 max-w-2xl mx-auto px-4 text-[1rem] sm:text-[1.125rem] leading-relaxed"
+          style={{ 
+            textShadow: '0 2px 10px rgba(0,0,0,0.8), 0 1px 6px rgba(0,0,0,0.6)'
+          }}
           initial={{ opacity: 0, y: shouldReduceMotion ? 0 : 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.15 }}
         >
-          ShaadiVerse is your all-in-one destination for everything wedding — from photographers to handcrafted gifts to stunning digital invitations. Celebrate love the modern Indian way — beautifully, effortlessly, and together.
+          ShaadiVerse is your all-in-one destination for everything wedding from photographers to handcrafted gifts to stunning digital invitations. Celebrate love the modern Indian way beautifully, effortlessly, and together.
         </motion.p>
         
         <motion.div
