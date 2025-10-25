@@ -35,6 +35,14 @@ export function Footer() {
       
       <div className="max-w-7xl mx-auto relative z-10">
         <div className="text-center mb-8 sm:mb-10">
+          {/* ShaadiVerse Logo */}
+          <div className="flex justify-center mb-6">
+            <img 
+              src="/shaadiverse-logo.svg" 
+              alt="ShaadiVerse Logo" 
+              className="w-16 h-16 sm:w-20 sm:h-20"
+            />
+          </div>
           <h3 
             className="text-white mb-3 sm:mb-4 text-[1.5rem] sm:text-[1.75rem] md:text-[2rem] leading-[1.2] drop-shadow-md"
             style={{ fontFamily: "'DM Serif Display', serif" }}
