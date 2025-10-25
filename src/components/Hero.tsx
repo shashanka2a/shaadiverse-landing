@@ -110,17 +110,17 @@ export function Hero() {
           Where Every Moment, Gift, and Story Finds Its Celebration.
         </motion.h1>
         
-        <motion.p
-          className="text-white mb-8 sm:mb-12 max-w-3xl mx-auto px-4 text-[1.125rem] sm:text-[1.25rem] leading-relaxed font-medium"
-          style={{ 
-            textShadow: '0 1px 3px rgba(0,0,0,0.3)'
-          }}
-          initial={{ opacity: 0, y: shouldReduceMotion ? 0 : 30 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, delay: 0.15 }}
-        >
-          ShaadiVerse is your all-in-one destination for everything wedding from photographers to handcrafted gifts to stunning digital invitations. Celebrate love the modern Indian way beautifully, effortlessly, and together.
-        </motion.p>
+      <motion.p
+        className="text-white mb-8 sm:mb-12 max-w-3xl mx-auto px-4 text-[1.125rem] sm:text-[1.25rem] leading-relaxed font-medium"
+        style={{ 
+          textShadow: '0 1px 3px rgba(0,0,0,0.3)'
+        }}
+        initial={{ opacity: 0, y: shouldReduceMotion ? 0 : 30 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.6, delay: 0.15 }}
+      >
+        Your complete wedding universe. From photographers to gifts to invitations — celebrate love the modern Indian way.
+      </motion.p>
         
         <motion.div
           className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center items-stretch sm:items-center px-4 max-w-3xl mx-auto"
